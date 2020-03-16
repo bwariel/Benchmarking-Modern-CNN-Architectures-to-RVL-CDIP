@@ -24,6 +24,10 @@ To download the RVL-CDIP dataset used in the study, please use the original auth
 
 We used cutout and mixup augmentation strategies together with Python image generator producing the augmentation on the fly during training on CPU.
 
+![alt text][logo]
+
+[logo]: https://github.com/jdegange/Document-Image-Classification-with-High-Performance-Parameter-efficient-Convolutional-Networks-SWA/blob/master/vgg_11_backbone-small_image.png "Logo Title Text 2"
+
 ### Reference
 Several repositories were used to construct this repo. [Keras Applications][1], 
 [classification_models][2], provided very helpful Keras Tensorflow implementations for many of the referenced architectures. Thank you. Stochastic weight averaging was performed using the helpful implementation using @kristpapadopoulos's constant learning rate implementation, some some light modification [repo][3].
