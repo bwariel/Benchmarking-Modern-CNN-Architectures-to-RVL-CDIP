@@ -26,7 +26,7 @@ We used cutout and mixup augmentation strategies together with Python image gene
 
 ![alt text][logo]
 
-[logo]: https://github.com/jdegange/Benchmarking-Modern-CNN-Architectures-to-RVL-CDIP/raw/dev2/cutout_examples.png "Logo Title Text 2"
+[logo]: https://github.com/jdegange/Benchmarking-Modern-CNN-Architectures-to-RVL-CDIP/raw/master/cutout_examples.png "Logo Title Text 2"
 
 ### Reference
 Several repositories were used to construct this repo. [Keras Applications][1], 
