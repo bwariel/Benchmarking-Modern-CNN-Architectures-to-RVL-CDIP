@@ -1,7 +1,7 @@
 # Benchmarking-Modern-CNN-Architectures-to-RVL-CDIP
 
 For questions please contact [Jonathan DeGange](mailto:jdegange85@gmail.com)
-
+Purple125!
 This is the associated repository with Medium article [https://medium.com/@jdegange85/benchmarking-modern-cnn-architectures-to-rvl-cdip-9dd0b7ec2955] and corresponding pre-print paper on Arxiv at `TBD`.
 
 ### Select Experiments
@@ -23,6 +23,10 @@ To download the RVL-CDIP dataset used in the study, please use the original auth
 ## Data augmentation strategy
 
 We used cutout and mixup augmentation strategies together with Python image generator producing the augmentation on the fly during training on CPU.
+
+![alt text][logo]
+
+[logo]: https://github.com/jdegange/Benchmarking-Modern-CNN-Architectures-to-RVL-CDIP/raw/dev2/cutout_examples.png "Logo Title Text 2"
 
 ### Reference
 Several repositories were used to construct this repo. [Keras Applications][1], 
