@@ -2,7 +2,7 @@
 
 For questions please contact [Jonathan DeGange](mailto:jdegange85@gmail.com)
 
-This is the associated repository with Medium article [Benchmarking Modern CNN Architectures to RVLCDIP]  (https://medium.com/@jdegange85/benchmarking-modern-cnn-architectures-to-rvl-cdip-9dd0b7ec2955)
+This is the associated repository with Medium article [Benchmarking Modern CNN Architectures to RVLCDIP](https://medium.com/@jdegange85/benchmarking-modern-cnn-architectures-to-rvl-cdip-9dd0b7ec2955)
 
 ### Select Experiments
 
