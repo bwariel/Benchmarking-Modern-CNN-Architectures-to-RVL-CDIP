@@ -29,5 +29,6 @@ We used cutout and mixup augmentation strategies together with Python image gene
 [logo]: https://github.com/jdegange/Benchmarking-Modern-CNN-Architectures-to-RVL-CDIP/raw/master/cutout_examples.png "Logo Title Text 2"
 
 ### Reference
+#To be updated
 Several repositories were used to construct this repo. [Keras Applications][1], 
 [classification_models][2], provided very helpful Keras Tensorflow implementations for many of the referenced architectures. Thank you. Stochastic weight averaging was performed using the helpful implementation using @kristpapadopoulos's constant learning rate implementation, some some light modification [repo][3].
