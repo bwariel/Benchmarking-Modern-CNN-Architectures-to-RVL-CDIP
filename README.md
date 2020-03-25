@@ -1,7 +1,7 @@
 # Benchmarking-Modern-CNN-Architectures-to-RVL-CDIP
 
 For questions please contact [Jonathan DeGange](mailto:jdegange85@gmail.com)
-Purple125!
+
 This is the associated repository with Medium article [https://medium.com/@jdegange85/benchmarking-modern-cnn-architectures-to-rvl-cdip-9dd0b7ec2955] and corresponding pre-print paper on Arxiv at `TBD`.
 
 ### Select Experiments

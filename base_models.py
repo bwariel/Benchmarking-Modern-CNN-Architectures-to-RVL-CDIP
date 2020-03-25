@@ -1,68 +1,7 @@
 import os
 import tensorflow as tf
 
-from utils import CyclicLR, WarmUpCosineDecayScheduler, cosine_decay_with_warmup, step_decay_schedule, LRFinder, WarmUpLearningRateScheduler, SWA, OneCycleLR
-import tensorflow as tf
-import argparse
-from efficientnet.keras import *
-
-import csv
-import cv2
-import keras
-from tensorflow.keras import layers
-from keras.layers import Conv2D, MaxPooling2D, Flatten, UpSampling2D, Input, Dense, GlobalAveragePooling2D, Flatten, Dropout, Conv2D, Add, BatchNormalization, Activation, AveragePooling2D, Cropping2D
-#from keras.layers.merge import concatenate
-from keras import backend as K
-from keras.optimizers import RMSprop, SGD, Adam
-from keras.callbacks import *
-from keras.applications.inception_v3 import preprocess_input
-
-from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img, image
-from keras.models import Model
-
-from keras.callbacks import *
-from keras.utils import multi_gpu_model
-from keras.utils import to_categorical
-from keras.utils import plot_model
-
-
-import math
-import matplotlib
-import matplotlib.pyplot as plt
-from multiprocessing import Process
-from multiprocessing import pool
-from multiprocessing.dummy import Pool as ThreadPool
-import multiprocessing as mp
-import numpy as np
-import pandas as pd
-import pickle
-from PIL import Image
-import random
-import subprocess
-from subprocess import check_output
-from scipy import ndimage
-from skimage.io import imread
-import sklearn.metrics as metrics
-import tarfile
-import time
-from time import sleep
-from tqdm import tqdm
-
-from keras.preprocessing.image import save_img
-
-from keras.activations import *
-
-#os.chdir('./img_output')
-
-
-from sklearn import svm, datasets
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix
-from sklearn.utils.multiclass import unique_labels
-import pickle
-import time, os, fnmatch, shutil
-from random_eraser import get_random_eraser
-
+from utils import *
 
 def get_architecture(model_name="EfficientNetB0", input_dim_width=224, input_dim_length=224,num_dense_layers=0,num_dense_nodes=0,num_class=16,dropout_pct=0.2, weights=None):
 
