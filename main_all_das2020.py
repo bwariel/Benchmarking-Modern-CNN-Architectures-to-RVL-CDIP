@@ -2,7 +2,7 @@ import os
 
 from comet_ml import Experiment #import Keras applications models
 
-experiment = Experiment(api_key="dfqLG9A0OXvL5VZoJAtI7wB4Z",
+experiment = Experiment(api_key="xxx",
                         project_name="rvl-cdip-comparisons",
                         workspace="jdegange")
 import tensorflow as tf
